@@ -1,0 +1,557 @@
+*
+{ 
+	margin:0;
+	padding:0;
+}
+/*fonts*/
+@font-face{
+	font-family:Brandonbld;
+	src:url(../fonts/Brandonbld.otf);
+}
+@font-face{
+	font-family:Brandonreg;
+	src:url(../fonts/Brandonreg.otf);
+}
+@font-face{
+	font-family:Brandonlight;
+	src:url(../fonts/Brandonlight.otf);
+}
+@font-face{
+	font-family:Brandonmed;
+	src:url(../fonts/Brandonmed.otf);
+}
+@font-face{
+	font-family:O Regular;
+	src:url(../fonts/O Regular.ttf);
+}
+/*font end*/
+/*header start*/
+header{}
+.banner{
+	width:100%; 
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center; 
+}
+.wrapper
+{   width:80%;
+	margin:0 auto;
+	overflow:hidden;	
+}	
+.top{
+	margin-top: 42px;
+	overflow: hidden;
+}  
+.logo{
+	width:20%;
+	float:left;
+	overflow: hidden;
+	/*border:1px solid white;*/
+}
+.logo img{
+	width:10%;
+	padding: 0px 13px;
+	float:left;	
+}
+.logo p{
+	width:10%;
+	font-family:O Regular;
+	font-weight: 400; 
+	font-size: 25px;
+	color: white;
+	float: left;
+	display: inline-block;
+}
+.menu{
+	width:58%;
+	float:right;
+	overflow: hidden;
+	/*border:1px solid white;*/
+}
+.menu ul{
+	float:right;
+	/*border:1px solid white;*/
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	font-family:Brandonmed;
+	font-weight: 500;
+	font-size:22px;
+	color: #ffffff;
+	margin:0px 28px;
+	text-decoration: none;	
+	transition: .5s;
+}
+
+.menu ul li a:last-child{
+	margin-right:0px;
+}
+.menu ul li a:hover{
+	color:#1E1C39;
+	background-color:#E28A7C;
+}
+/*banner botom start*/
+.bottom{
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 110px;
+	/*border:1px solid white;*/
+
+}   
+.bottom h3{
+	font-family:Brandon_light;
+	font-weight: 300;
+	font-size:32px;
+	color:#ffffff;
+	padding: 10px;
+}
+.bottom h1{
+	font-family:Brandon_bld;
+	font-weight: 700;
+	font-size:60px;
+	color:#ffffff;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.bottom button{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 23px;
+	color: #ffffff;
+	text-transform: capitalize;	
+	background-color: transparent;
+	margin-top: 43px;
+	padding: 10px 49px;
+	border-radius: 4px;
+	transition: .5s;
+}  
+
+.bottom button:focus{
+	outline: 0;
+}
+.bottom button:hover{
+	color:#1E1C39;
+	background-color:whitesmoke;
+}
+
+
+
+/*header end*/
+/*service start*/
+.service,.service2{
+	margin:80px 0;
+}
+.development,.dev{
+	overflow: hidden;	
+}
+.dev-content1,.dev-content2{
+	width: 65%;
+	float: left;
+	padding:30px 0px;
+	/*border:1px solid red;*/
+}
+.dev-img,.dev-img2{
+	width:20%;
+	margin-top: 65px;
+	margin-left: 60px;
+	float:left;
+}
+
+.head{
+	font-family:Brandonlight;
+	font-weight:normal;
+	font-size: 60px;
+	color:black;
+	text-align:center;	
+}
+span{
+	font-family:Brandonbold;
+	font-weight:700;
+	font-size: 60px;
+	color:black;	
+}
+.detail
+{
+	font-family:Brandonlight;
+	color:#9B9B9B;
+	font-size: 18px;
+	display:block;
+	font-weight:normal;
+	padding:50px 15px;
+}
+.service2
+{
+	background-color:#EBEBEB;
+	overflow:hidden;
+}
+/*service2 end*/
+/*icons start*/
+.brand
+{
+	overflow: hidden;
+	margin: 80px 0;
+}
+.single
+{
+	width: 47%;
+	float: left;
+	/*border:1px solid red;*/
+}
+.single:nth-child(even) {
+	margin-left:5.1%;
+}
+.photo-img{
+	width:15%;
+	float:left;
+	/*border:1px solid red;*/
+}
+.photo-img img
+{
+	width:100%;
+}
+.single-content{
+	width:75%;
+	float:left;
+	padding:0px 14px;
+	/*border:1px solid red;*/
+
+}
+
+.light{
+	font-family:Brandonmed;
+	font-weight:600;
+	color:black;
+	display:block;
+	font-size: 30px;
+}
+.text{
+	font-family:Brandonreg;
+	color:#9B9B9B;
+	font-size: 20px;
+}
+/*icons end*/
+/*client section start*/
+.client
+{
+	background-color:#EFEFEF;
+	overflow:hidden;
+}
+.wrapper2
+{   width:60%;
+	overflow:hidden;
+	margin:0 auto;
+	text-align:center; 
+	/*border:1px solid red;*/
+}
+.client-head
+{}
+
+/*client section end*/
+.testimonial
+{
+	overflow:hidden;
+	margin-top: 50px;
+}
+.testimon{
+	overflow:hidden;
+}
+
+.test-image
+{
+	width:18%;
+	float:left;
+}
+.test-image2
+{
+	width:18%;
+	float:right;
+	margin-right:70px;
+}
+
+.test-image img,.test-image2 img
+{
+	width:100%;	
+}
+
+.wrapper3
+{
+	overflow:hidden;
+	width:65%;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+.test-detail
+{
+	float:left;
+	margin:0 auto;
+	padding-top:40px;
+}
+.test{
+	font-family:Brandonreg;
+	font-weight:normal;
+	font-size: 22px;
+	text-align:center;
+	color:#B6B6B6;	
+}
+.blue{
+	font-family:Brandonreg;
+	font-weight:normal;
+	font-size: 18px;
+	color:#7F97C9;	
+}
+
+.talk{
+	float: left;
+	display: inline-block;
+	margin: 50px 50px;
+	/*border: 1px solid yellow;*/
+}
+.test-detail{
+	width:97%;	
+}
+#talkbubble {
+	width: 60%;
+	height: 200px;
+	background: white;
+	position: relative;
+	-webkit-border-radius: 10px;
+	border-radius: 5PX;
+}
+#talkbubble:before {
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 80px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid white;
+	border-bottom: 13px solid transparent;
+}
+/*brand sign start*/
+.brand-sign{
+	overflow:hidden;
+
+}
+.brand-icons{
+	margin:50px 0;
+}	
+.brand-image{
+	width:20%;
+	float:left;
+	margin-left:2%;
+}
+.brand-image img
+{
+	width:100%
+}
+/*brand sign end*/
+/*Circle section start*/
+.circle{
+	background-color:black;
+	margin-top:30px;
+}
+.client-head
+{
+	margin:50px 0;
+}
+
+.head1{
+	font-family:Brandonlight;
+	font-weight:normal;
+	font-size: 60px;
+	color:white;
+	text-align:center;	
+}
+.team{
+	font-family:Brandonbold;
+	font-weight:700;
+	font-size: 60px;
+	color:white;	
+}
+.circle-round{
+	overflow:hidden;	
+}
+
+.circle-part{
+	width:27%;
+	float:left;
+	margin-left:6%;
+	/*border:1px solid white;*/
+}
+.round{
+	margin:0 auto;
+	width:50%;	
+}
+.round img{
+	width:100%;
+}
+.circle-title{
+	text-align:center;
+}
+.circle-title h4{
+	font-family:Brandonbold;
+	font-weight:normal;
+	font-size: 22px;
+	color:white;
+	text-align:center;
+}
+.circle-title h6
+{
+	font-family:Brandonlight;
+	font-weight:normal;
+	color:white;
+	font-size: 20px;
+}
+.circle-icons{
+	overflow:hidden;
+	width:48%;
+	margin:0 auto;	
+}
+
+.circle-icons ul {
+	list-style:none;
+	float:left;
+}
+
+.circle-icons ul li{
+	float:left;
+}
+
+.circle-icons ul li a{
+	font-family:Brandonmed;
+	color:white;
+	text-align:center;
+	text-decoration: none;
+	display:inline-block;
+	padding:5px 4px;
+	transition: 0.5s;
+}
+.circle-icons img
+{
+	width:100%;
+}
+
+.title2 
+{}
+.title2 p
+{
+	font-family:Brandonlight;
+	font-weight:normal; 
+	font-size: 20px;
+	color:white;
+	padding:50px 20px;
+	text-align:center;
+}
+
+/*Circle section end*/
+/*footer start*/
+.footer{
+	background-color: #7690c5;
+}
+.footer-left,.footer-right{
+	margin:150px 0;
+}
+.footer-left{
+	overflow: hidden;
+	width: 48%;
+	float: left;
+}
+.footer-left h1{
+	font-family: 'Brandonlight';
+	font-weight: 300;
+	font-size: 60px;
+	color: white;
+	display: inline-block;
+}
+.footer-left h2{
+	font-family: 'Brandonreg';
+	font-weight: 700;
+	font-size: 60px;
+	color: white;
+	display: inline-block;
+}
+.footer-left p{
+	font-family: 'Brandonbold';
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+table{
+	width: 100%;
+}
+table,tr,td{
+	margin-top: 45px;
+	margin-bottom: 30px;
+	font-family: 'Brandonreg';
+	font-weight: 400;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+td:nth-child(1){
+	text-align: center;
+}
+td:nth-child(2){
+	padding-left: 2px;
+}
+td:nth-child(3){
+	width: 67px;
+	text-align: right;
+	padding-right: 10px;
+}
+tr{
+	height: 50px;
+}
+
+.footer-right{
+	overflow: hidden;
+	width: 48%;
+	float: right;
+	/*border:1px solid white;*/
+}
+.email{
+	font-family:Brandonmed ;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 20px;
+	color: #bbbbbb;
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	border: 0; 
+}
+.message{
+	width: 100%;
+	height: 50px;
+	font-family: Brandonmed;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 20px;
+	color: #bbbbbb;
+	padding-bottom: 85px;
+	margin-bottom: 20px;
+	display: block;
+	border-radius: 4px;
+	border: 0;
+}
+
+.email:focus, .message:focus{
+	outline: 0;
+}
+
+.f-text p{
+	font-family: 'Brandonmed';
+	font-weight: 500;
+	font-size: 18px;
+	text-align:center;
+	color: #ffffff;
+}
+/*footer end */
